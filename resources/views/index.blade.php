@@ -12,6 +12,7 @@
         <li> Author:  {{$book->author}} </li>
         <li> Pages:  {{$book->pages}} </li>
         <li> ISBN:  {{$book->isbn}} </li>
+        <li> <a href="{{"/book/".$book->id}}">Vai</a> </li>
         <br>
         <br>
       @endforeach
